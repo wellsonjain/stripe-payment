@@ -22,3 +22,6 @@
 
 # Ignore dot files
 .versions.conf
+
+# Ignore application configuration
+/config/application.yml

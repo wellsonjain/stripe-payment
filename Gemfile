@@ -19,6 +19,9 @@ gem 'bootstrap-sass'
 # Stripe for taking payment
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
+# Figaro to securely configure app
+gem 'figaro'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
