@@ -9,6 +9,15 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div id="content" class="container">
+      <header id="content-header">
+      <header id="content-header">
+        <div id="price-container">
+          <span class="glyphicon glyphicon-tag"></span><span class="price">$9.99</span>
+        </div>
+        <%= image_tag "header-image", id: "content-image", alt: "Learn Rails" %>
+      </header>
+      <%= yield %>
+    </div>
   </body>
 </html>
