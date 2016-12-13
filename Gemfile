@@ -22,6 +22,13 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Figaro to securely configure app
 gem 'figaro'
 
+# ActiveAdmin for admin system
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
+# devise for user authentication
+gem 'devise'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
